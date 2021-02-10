@@ -1,4 +1,4 @@
-// Bot by DeSper optimisé pour peu de poid. 
+// Bot by DeSper optimisé 
 // Hostable sur heroku
 
 const Discord = require('discord.js');
@@ -9,11 +9,7 @@ client.on('ready', () => {
   client.user.setActivity('$info', { type: 'PLAYING'});
 });
 
-// Set the client user's activity
-
-  
-
-
+// Commande fake pour que la personne pense que le bot lui est utile
 
 client.on('message', msg => {
   if (msg.content === '$info') {
@@ -21,4 +17,6 @@ client.on('message', msg => {
   }
 });
 
-client.login('NzcxOTAxOTU3NDI5MjY0NDA0.X5y3tw.zRnn_WbOBgXDQvhC_JSo5CrJWes');
+// Utiliser un tool, entrée le token du bot et spam mp
+
+client.login('METTRE LE TOKEN ICI');
